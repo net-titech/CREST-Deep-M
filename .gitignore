@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+# Data
+datasets/data/*
+
+# Trained models
+trained-models/*
