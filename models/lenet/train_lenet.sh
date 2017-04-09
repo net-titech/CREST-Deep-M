@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
-set -e
+set -e  # Exit immediately if a command exits with a non-zero status
 
-./build/tools/caffe train --solver=examples/mnist/lenet_solver.prototxt $@
+DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+
+$CAFFE_ROOT/build/tools/caffe train --solver=$DIR/lenet_solver.prototxt $@
