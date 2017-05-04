@@ -33,3 +33,8 @@ datasets/data/*
 
 # Trained models
 trained-models/*
+
+# Compressed Models
+compressed-models/alexnet/jpegs/*
+compressed-models/alexnet/pngs/*
+compressed-models/alexnet/gifs/*
