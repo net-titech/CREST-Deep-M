@@ -36,3 +36,5 @@ trained-models/*
 
 # Compressed Models
 compressed-models/*
+
+.ipynb_checkpoints
