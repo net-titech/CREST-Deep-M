@@ -37,4 +37,7 @@ trained-models/*
 # Compressed Models
 compressed-models/*
 
+# Local files
+local-*
+
 .ipynb_checkpoints
