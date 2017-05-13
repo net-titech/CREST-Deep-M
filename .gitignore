@@ -41,3 +41,6 @@ compressed-models/*
 local-*
 
 .ipynb_checkpoints
+
+# Template file for notebooks
+notebooks/tmp*
