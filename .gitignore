@@ -44,3 +44,47 @@ local-*
 
 # Template file for notebooks
 notebooks/tmp*
+
+# Python Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Sphinx docs
+docs/_build/
+
+# pyenv
+.python-version
