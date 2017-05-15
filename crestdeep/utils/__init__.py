@@ -3,6 +3,8 @@
 """
 import numpy as np
 import pickle as pkl
+import os
+import sys
 try:
     caffe_root = os.environ["CAFFE_ROOT"]
     sys.path.insert(0, caffe_root + '/python')
